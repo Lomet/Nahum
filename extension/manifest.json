@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Style Changer",
+    "version": "1.0",
+    "description": "Change the style of elements with the class 'min-h-4' on chatgpt.com",
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": ["https://chatgpt.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://chatgpt.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_icon": "icon.png"
+    }
+  }
+  
