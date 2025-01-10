@@ -10,6 +10,7 @@ function updateStyles() {
   elements.forEach((el) => {
     el.style.fontSize = '48px';
     el.style.color = 'red';
+    el.style.paddingBottom = '10px'; // Add padding at the bottom
     console.log("Updated element:", el);
   });
 }
