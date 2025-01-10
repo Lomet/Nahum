@@ -27,6 +27,8 @@ A simple Chrome extension to dynamically change the style of elements with the c
 1. Navigate to [chatgpt.com](https://chatgpt.com/).
 2. The extension automatically updates the styles of elements with the class `min-h-4`.
 3. Any new elements matching the criteria will also be updated dynamically.
+   
+![image](https://github.com/user-attachments/assets/3763e040-90af-49f6-99ae-a6978a31d1bc)
 
 ## Permissions
 
@@ -38,7 +40,7 @@ This extension requires the following permissions:
 ## Notes
 
 - This extension is configured to work only on `https://chatgpt.com/*`.
-- If no elements with the class `min-h-4` are found, a message will appear in the console (`No elements found with the class 'min-h-4'`).
+- A message will appear in the console if no elements with the class `min-h-4` are found (`No elements found with the class 'min-h-4'`).
 
 ## Development
 
